@@ -30,54 +30,54 @@ let addressesnotls = [
 	'www.visa.com.sg#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
 	'www.who.int:8880#官方优选域名',
-	‘bestcf.onecf.eu.org:2052#官方优选域名-Mingyu大佬提供维护’，
-	‘bestproxy.onecf.eu.org:2052#反代优选域名-Mingyu大佬提供维护 ’，
-	‘cfip.xxxxxxxx.tk#官方优选域名-OTC大佬提供维护 ’，
-	‘proxy.xxxxxxxx.tk#反代优选域名-OTC大佬提供维护 ’，
-	‘acjp2.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ’，
-	‘acsg.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ’，
-	‘acsg3.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ’，
-	‘xn--b6gac.eu.org:2052#↗↘↗.eu.org官方优选域名 ’，
-	‘cdn-all.xn--b6gac.eu.org:2052#cdn-all.↗↘↗.eu.org官方优选域名 ’，
-	‘cdn-b100.xn--b6gac.eu.org:2052#cdn-b100.↗↘↗.eu.org反代优选域名 ’，
-	‘time.cloudflare.com:2052’，
-	‘shopify.com time.is:2052’，
-	‘icook.hk icook.tw:2052’，
-	‘ip.sb japan.com:2052’，
-	‘malaysia.com:2052’，
-	‘russia.com:2052’，
-	‘singapore.com:2052’，
-	‘skk.moe:2052’，
-	‘www.visa.com:2052’， 
-	‘www.visa.com.sg:2052’，
-	‘www.visa.com.hk:2052’，
-	‘www.visa.com.tw:2052 ’，
-	‘www.visa.co.jp:2052’，
-	‘www.visakorea.com:2052’，
-	‘www.gco.gov.qa:2052’，
-	‘www.gov.se:2052’，
-	‘www.gov.ua:2052’，
-	‘www.digitalocean.com:2052’，
-	‘www.csgo.com:2052’，
-	‘www.shopify.com:2052’，
-	‘www.whoer.net:2052’，
-	‘www.whatismyip.com:2052’， 
-	‘www.ipget.net:2052’，
-	‘www.hugedomains.com:2052’，
-	‘www.udacity.com:2052’，
-	‘www.4chan.org:2052’，
-	‘www.okcupid.com:2052’，
-	‘www.glassdoor.com:2052’，
-	‘www.udemy.com:2052’，
-	‘alejandracaiccedo.com:2052’， 
-	‘nc.gocada.co:2052’，
-	‘log.bpminecraft.com:2052’， 
-	‘www.boba88slot.com:2052’，
-	‘gur.gov.ua:2052’，
-	‘www.zsu.gov.ua:2052’，
-	‘www.iakeys.com:2052’，
-	‘www.d-555.com:2052’，
-	‘fbi.gov:2052’，
+	'bestcf.onecf.eu.org:2052#官方优选域名-Mingyu大佬提供维护',
+	'bestproxy.onecf.eu.org:2052#反代优选域名-Mingyu大佬提供维护 ',
+	'cfip.xxxxxxxx.tk#官方优选域名-OTC大佬提供维护 ',
+	'proxy.xxxxxxxx.tk#反代优选域名-OTC大佬提供维护 ',
+	'acjp2.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ',
+	'acsg.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ',
+	'acsg3.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ',
+	'xn--b6gac.eu.org:2052#↗↘↗.eu.org官方优选域名 ',
+	'cdn-all.xn--b6gac.eu.org:2052#cdn-all.↗↘↗.eu.org官方优选域名 ',
+	'cdn-b100.xn--b6gac.eu.org:2052#cdn-b100.↗↘↗.eu.org反代优选域名 ',
+	'time.cloudflare.com:2052',
+	'shopify.com time.is:2052',
+	'icook.hk icook.tw:2052',
+	'ip.sb japan.com:2052',
+	'malaysia.com:2052',
+	'russia.com:2052',
+	'singapore.com:2052',
+	'skk.moe:2052',
+	'www.visa.com:2052', 
+	'www.visa.com.sg:2052',
+	'www.visa.com.hk:2052',
+	'www.visa.com.tw:2052 ',
+	'www.visa.co.jp:2052',
+	'www.visakorea.com:2052',
+	'www.gco.gov.qa:2052',
+	'www.gov.se:2052',
+	'www.gov.ua:2052',
+	'www.digitalocean.com:2052',
+	'www.csgo.com:2052',
+	'www.shopify.com:2052',
+	'www.whoer.net:2052',
+	'www.whatismyip.com:2052', 
+	'www.ipget.net:2052',
+	'www.hugedomains.com:2052',
+	'www.udacity.com:2052',
+	'www.4chan.org:2052',
+	'www.okcupid.com:2052',
+	'www.glassdoor.com:2052',
+	'www.udemy.com:2052',
+	'alejandracaiccedo.com:2052', 
+	'nc.gocada.co:2052',
+	'log.bpminecraft.com:2052', 
+	'www.boba88slot.com:2052',
+	'gur.gov.ua:2052',
+	'www.zsu.gov.ua:2052',
+	'www.iakeys.com:2052',
+	'www.d-555.com:2052',
+	'fbi.gov:2052',
 ];
 
 // 设置优选noTLS地址api接口
