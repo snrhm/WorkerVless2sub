@@ -5,13 +5,23 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+        'cdn.xn--b6gac.eu.org:2053#SG优选',
+	'cdn-all.xn--b6gac.eu.org:2053#SG优选',
+	'workers.cloudflare.cyou:2053#SG优选',
+	'acsg.cloudflarest.link:2053#SG优选',
+	'acsg3.cloudflarest.link:2053#SG优选',
+	'acjp2.cloudflarest.link:2053#SG优选',
+	'www.000webhost.com:2053#SG优选',
+	'dogechain.info:2053#SG优选',
+	'www.idle-empire.com:2053#SG优选',
+	'www.zendesk.com:2053#SG优选',
+	'interactive.kohls.com:2053#SG优选',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://speedtxt.snrhm.free.hr/ip.txt?token=800811Yz',
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
@@ -20,11 +30,60 @@ let addressesnotls = [
 	'www.visa.com.sg#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
 	'www.who.int:8880#官方优选域名',
+	‘bestcf.onecf.eu.org:2052#官方优选域名-Mingyu大佬提供维护’，
+	‘bestproxy.onecf.eu.org:2052#反代优选域名-Mingyu大佬提供维护 ’，
+	‘cfip.xxxxxxxx.tk#官方优选域名-OTC大佬提供维护 ’，
+	‘proxy.xxxxxxxx.tk#反代优选域名-OTC大佬提供维护 ’，
+	‘acjp2.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ’，
+	‘acsg.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ’，
+	‘acsg3.cloudflarest.link:2052#反代优选域名-KJKKK大佬提供维护 ’，
+	‘xn--b6gac.eu.org:2052#↗↘↗.eu.org官方优选域名 ’，
+	‘cdn-all.xn--b6gac.eu.org:2052#cdn-all.↗↘↗.eu.org官方优选域名 ’，
+	‘cdn-b100.xn--b6gac.eu.org:2052#cdn-b100.↗↘↗.eu.org反代优选域名 ’，
+	‘time.cloudflare.com:2052’，
+	‘shopify.com time.is:2052’，
+	‘icook.hk icook.tw:2052’，
+	‘ip.sb japan.com:2052’，
+	‘malaysia.com:2052’，
+	‘russia.com:2052’，
+	‘singapore.com:2052’，
+	‘skk.moe:2052’，
+	‘www.visa.com:2052’， 
+	‘www.visa.com.sg:2052’，
+	‘www.visa.com.hk:2052’，
+	‘www.visa.com.tw:2052 ’，
+	‘www.visa.co.jp:2052’，
+	‘www.visakorea.com:2052’，
+	‘www.gco.gov.qa:2052’，
+	‘www.gov.se:2052’，
+	‘www.gov.ua:2052’，
+	‘www.digitalocean.com:2052’，
+	‘www.csgo.com:2052’，
+	‘www.shopify.com:2052’，
+	‘www.whoer.net:2052’，
+	‘www.whatismyip.com:2052’， 
+	‘www.ipget.net:2052’，
+	‘www.hugedomains.com:2052’，
+	‘www.udacity.com:2052’，
+	‘www.4chan.org:2052’，
+	‘www.okcupid.com:2052’，
+	‘www.glassdoor.com:2052’，
+	‘www.udemy.com:2052’，
+	‘alejandracaiccedo.com:2052’， 
+	‘nc.gocada.co:2052’，
+	‘log.bpminecraft.com:2052’， 
+	‘www.boba88slot.com:2052’，
+	‘gur.gov.ua:2052’，
+	‘www.zsu.gov.ua:2052’，
+	‘www.iakeys.com:2052’，
+	‘www.d-555.com:2052’，
+	‘fbi.gov:2052’，
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://speedtxt.snrhm.free.hr/ip.txt?token=800811Yz',
 ];
 
 let DLS = 8;//速度下限
@@ -33,7 +92,7 @@ let addressescsv = [
 ];
 
 let subconverter = "apiurl.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅转换配置文件
+let subconfig = "https://speedtxt.snrhm.free.hr/snrhm.ini?token=800811Yz"; //订阅转换配置文件
 let noTLS = false; //改为 true , 将不做域名判断 始终返回noTLS节点
 let link = '';
 let edgetunnel = 'ed';
@@ -42,6 +101,13 @@ let proxyIPs = [
 	'proxyip.aliyun.fxxk.dedyn.io',
 	'proxyip.multacom.fxxk.dedyn.io',
 	'proxyip.vultr.fxxk.dedyn.io',
+	'proxyip.fxxk.dedyn.io',
+	'proxyip.sg.fxxk.dedyn.io',
+	'proxyip.jp.fxxk.dedyn.io',
+	'proxyip.hk.fxxk.dedyn.io',
+	'proxyip.aliyun.fxxk.dedyn.io',
+	'proxyip.oracle.fxxk.dedyn.io',
+	'proxyip.digitalocean.fxxk.dedyn.io',
 ];
 let CMproxyIPs = [
 	//{ proxyIP: "proxyip.fxxk.dedyn.io", type: "HK" },
